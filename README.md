@@ -36,6 +36,7 @@ Restart the server (or rely on `--reload`) after editing content.
 ## Deploying (GitHub Pages)
 
 Pushing to `main` runs `.github/workflows/deploy.yml`, which renders the site with `freeze.py` and publishes `dist/` to
-https://zoebishop16.github.io/ZoeBishopPortfolio/. One-time setup: repo **Settings → Pages → Source: GitHub Actions**.
+https://zoebishop16.github.io/engineering-portfolio/. One-time setup: repo **Settings → Pages → Source: GitHub Actions**.
+The workflow takes the folder name from the repo name, so renaming the repo moves the site (old URLs stop working).
 
-To build the static site yourself: `python freeze.py --base-path /ZoeBishopPortfolio` (omit `--base-path` when hosting at a domain root).
+To build the static site yourself: `python freeze.py --base-path /engineering-portfolio` (omit `--base-path` when hosting at a domain root).
