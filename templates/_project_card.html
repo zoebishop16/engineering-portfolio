@@ -1,0 +1,9 @@
+<a class="card" href="/projects/{{ p.slug }}">
+  <div class="card-media"><img src="{{ p.thumbnail }}" alt="{{ p.title }}" loading="lazy" decoding="async"></div>
+  <div class="card-body">
+    <p class="eyebrow">{{ p.category }}{% if p.year %} · {{ p.year }}{% endif %}</p>
+    <h3>{{ p.title }}</h3>
+    <p class="card-summary">{{ p.summary }}</p>
+    <ul class="tags">{% for t in p.tags %}<li>{{ t }}</li>{% endfor %}</ul>
+  </div>
+</a>

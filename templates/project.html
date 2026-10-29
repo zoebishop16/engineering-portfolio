@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}{{ project.title }} — {{ site.name }}{% endblock %}
+{% block description %}{{ project.summary }}{% endblock %}
+{% block content %}
+<article class="article">
+  <a class="link-back" href="/projects">← All projects</a>
+  <header class="page-head">
+    <p class="eyebrow">{{ project.category }}{% if project.year %} · {{ project.year }}{% endif %}</p>
+    <h1>{{ project.title }}</h1>
+    <p class="lede">{{ project.summary }}</p>
+    <ul class="tags">{% for t in project.tags %}<li>{{ t }}</li>{% endfor %}</ul>
+  </header>
+  <div class="prose">{{ project.html | safe }}</div>
+  <nav class="pager">
+    {% if prev %}<a href="/projects/{{ prev.slug }}"><span>Previous</span>{{ prev.title }}</a>{% else %}<span></span>{% endif %}
+    {% if next %}<a class="next" href="/projects/{{ next.slug }}"><span>Next</span>{{ next.title }}</a>{% endif %}
+  </nav>
+</article>
+{% endblock %}

@@ -1,0 +1,106 @@
+education:
+  - school: Cornell University
+    location: Ithaca, NY
+    degrees:
+      - degree: Master of Engineering, Mechanical Engineering
+        date: Expected May 2027
+      - degree: Bachelor of Science, Mechanical Engineering
+        detail: "GPA: 3.5 · Dean’s Honor List five semesters · Cum Laude"
+        date: May 2026
+    courses: >-
+      Systems Engineering and Six Sigma for the Design and Operation of Reliable Systems, Finite Element Analysis
+      for Mechanical and Aerospace Design, Dynamics of Flight Vehicles, Propulsion of Aircraft & Rockets,
+      Project Management
+
+sections:
+  - title: Professional Experience
+    entries:
+      - org: BETA Technologies
+        role: Product Quality Engineering Intern
+        location: South Burlington, VT & Remote
+        date: Jun 2026 – Present (PT)
+        bullets:
+          - >-
+            Led an environmental continuous improvement project for battery manufacturing and storage. Conducted
+            corrective and preventive actions (CAPA) and root cause analysis (RCA) within an AS9100 QMS. Developed
+            and executed a test plan, analyzed data, and presented findings that led to a design change. Reported
+            to the biweekly Corrective Action Board (CAB).
+          - Supported FAA conformity documentation and traceability for the all-electric aircraft program.
+          - Created a dashboard for tracking nonconformance reports (NCRs) and corrective actions for top quality issues.
+          - Wrote four training guides for battery manufacturing line tools.
+      - org: GlobalFoundries
+        role: Metrology Equipment Engineering Intern
+        location: Essex Junction, VT
+        date: Jun 2025 – Jan 2026
+        bullets:
+          - Led the first-of-a-kind qualification of a measurement toolset through the Product Change Review Board (PCRB).
+          - >-
+            Evaluated wafers to identify sample sets and performed gage repeatability and reproducibility (GR&R)
+            studies for measurement system analysis (MSA). Analyzed and assessed risks of the toolset using a change
+            risk assessment; presented findings to the Failure Mode and Effects Analysis (FMEA) Review Board.
+      - org: Seattle University
+        role: Environmental Engineering Intern
+        location: Seattle, WA
+        date: Apr 2022 – Aug 2023
+        bullets:
+          - >-
+            Implemented and programmed sensor instrumentation (temperature, pH, dissolved oxygen, electrical
+            conductivity, flow, and pressure transducer) for a hydroponics system using Arduino and Raspberry Pi;
+            created video and written operating manual.
+
+  - title: Projects
+    entries:
+      - org: Sagitta Borealis Systems
+        role: Additively Manufactured Spacecraft Thruster M.Eng. Project
+        location: Ithaca, NY
+        date: Sep 2026 – Present
+        bullets:
+          - 3D printing porous electrospray emitter arrays (350–500+ emitters) on a Nanoscribe GT2 for VLEO satellite propulsion.
+          - Measuring print variability with laser profilometry, testing fluid flow, and documenting process iterations.
+      - org: Engineers in Action, Cornell Project Team
+        role: Quality Control Engineer
+        location: Ithaca, NY & Eswatini, Africa
+        date: Sep 2023 – May 2025
+        project: jolitane-suspended-bridge
+        bullets:
+          - >-
+            Collaborated with a rural community of ~5,400 people and 10 travel team members to build an 88-meter
+            suspended pedestrian bridge to enable safer and faster passage over a river during dangerous conditions.
+          - Monitored quality control during construction. Audited and recorded as-built plans.
+          - Documented design and implementation plans and presented in review calls with licensed engineers.
+      - org: Cornell University
+        role: 2025 Mechatronics Cube Craze Competition
+        location: Ithaca, NY
+        date: May 2025
+        project: mechatronics-cube-craze
+        bullets:
+          - Designed and coded an Arduino-based robot in a team of three to collect the most blocks in an arena; placed 2nd of 45 teams.
+
+  - title: Leadership & Activities
+    entries:
+      - org: Cornell University
+        role: Cornell Club Soccer and Cornell Wild Roses Ultimate Frisbee
+        location: Ithaca, NY
+        date: Aug 2022 – Present
+        bullets:
+          - 2025 President of Cornell Club Soccer; 2025 region MVP; 2022, 2023, 2025 NIRSA National Tournament qualifier.
+          - Social media manager of the Wild Roses Ultimate Frisbee team; 2025 USA Ultimate D-1 College Championships qualifier.
+      - org: Cornell University
+        role: Society of Women Engineers (SWE)
+        location: Ithaca, NY
+        date: Aug 2022 – May 2026
+        bullets:
+          - >-
+            2025–26 Co-President; oversaw eight directorships and managed planning and logistics for a 200-member
+            organization. Facilitated monthly executive board meetings.
+          - 2024–25 Co-Outreach Director, 2023–24 DiverSWEty Outreach Committee Lead; led outreach to support women in STEM.
+
+skills:
+  - group: Quality
+    items: [Six Sigma, GR&R, FMEA, RCA, CAPA, AS9100 QMS, NCR, Plex, Microsoft Excel, Grafana]
+  - group: Manufacturing
+    items: [Cornell Emerson Machine Shop trained (manual mill & lathe), Engineering drawing interpretation]
+  - group: Design
+    items: [Autodesk Fusion 360, Autodesk AutoCAD, Finite Element Analysis (ANSYS), 3DEXPERIENCE]
+  - group: Programming
+    items: [MATLAB, Python, Arduino IDE, C++, Raspberry Pi, Data Analysis]

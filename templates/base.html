@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ site.name }} — {{ site.title }}{% endblock %}</title>
+  <meta name="description" content="{% block description %}{{ site.tagline }}{% endblock %}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css?v={{ css_version }}">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23B31B1B'/><text x='16' y='22' font-family='Arial' font-weight='700' font-size='15' fill='white' text-anchor='middle'>ZB</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="/">{{ site.name }}</a>
+      <ul class="nav-links">
+        <li><a href="/" {% if active == 'about' %}aria-current="page"{% endif %}>About</a></li>
+        <li><a href="/resume" {% if active == 'resume' %}aria-current="page"{% endif %}>Resume</a></li>
+        <li><a href="/projects" {% if active == 'projects' %}aria-current="page"{% endif %}>Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>&copy; 2026 {{ site.name }}</span>
+      <span class="footer-links">
+        <a href="mailto:{{ site.email }}">Email</a>
+        <a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="{{ site.resume_pdf }}" target="_blank" rel="noopener">Resume PDF</a>
+      </span>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+name: Zoe Bishop
+title: Mechanical Engineer
+tagline: M.Eng. in Mechanical Engineering at Cornell University, focused on quality engineering, design, and aerospace systems.
+location: Seattle, WA
+email: zjb6@cornell.edu
+phone: (206) 822-0504
+linkedin: https://www.linkedin.com/in/zoe-bishop/
+resume_pdf: /static/files/Zoe-Bishop-Resume.pdf
+photo: /static/images/thumbs/profile-pic.jpg
+
+about:
+  - >-
+    I graduated cum laude with a Bachelor of Science in Mechanical Engineering from Cornell University
+    and am currently pursuing a Master of Engineering in Mechanical Engineering at Cornell. I am passionate
+    about applying mechanical and quality engineering principles to real-world engineering challenges, and I
+    believe my strong foundation in engineering principles, combined with innovative problem-solving, makes
+    me a valuable candidate for a full-time engineering position.
+  - >-
+    Throughout my time at Cornell, I have gained hands-on experience with projects that sharpened my skills in
+    design, analysis, and mechanical systems. My coursework has equipped me with proficiency in AutoCAD,
+    Fusion 360, ANSYS, MATLAB, and Python. My strong work ethic, attention to detail, and ability to work
+    collaboratively on team projects have prepared me to contribute meaningfully to an engineering team.
+
+highlights:
+  - value: "3"
+    label: Engineering internships in quality, metrology, and sensing
+  - value: "88 m"
+    label: Suspended footbridge built in Eswatini
+  - value: "2nd / 45"
+    label: Mechatronics Cube Craze Competition
