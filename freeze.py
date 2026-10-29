@@ -29,6 +29,13 @@ HTML_LINK = re.compile(r'((?:href|src)=")/(?!/)')
 JSON_LINK = re.compile(r'"/(projects|static)/')
 
 
+def add_trailing_slashes(text: str, base: str) -> str:
+    """Point page links at "/route/" — the folder GitHub Pages serves — to skip its redirect."""
+    for route in ROUTES[1:]:
+        text = text.replace(f'"{base}{route}"', f'"{base}{route}/"')
+    return text
+
+
 def normalize(base: str) -> str:
     base = base.strip().strip("/")
     return f"/{base}" if base else ""
@@ -47,6 +54,7 @@ def main() -> None:
         html = client.get(route).raise_for_status().text
         if base:
             html = HTML_LINK.sub(rf"\1{base}/", html)
+        html = add_trailing_slashes(html, base)
         out = DIST / route.strip("/") / "index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(html, encoding="utf-8")
@@ -55,6 +63,7 @@ def main() -> None:
         data = client.get(route).raise_for_status().text
         if base:
             data = JSON_LINK.sub(rf'"{base}/\1/', data)
+        data = add_trailing_slashes(data, base)
         out = DIST / f"{route.strip('/')}.json"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(data, encoding="utf-8")
