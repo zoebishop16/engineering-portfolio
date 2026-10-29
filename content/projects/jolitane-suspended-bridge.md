@@ -2,7 +2,7 @@
 title: Jolitane Suspended Bridge
 category: Engineers in Action
 year: "2024"
-order: 4
+order: 5
 summary: "Quality Control Engineer on an 88-meter suspended pedestrian footbridge in Eswatini serving over 5,000 people."
 tags: [AutoCAD, Quality Control, Excel]
 thumbnail: /static/images/thumbs/Bridge.jpg

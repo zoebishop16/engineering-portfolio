@@ -2,7 +2,7 @@
 title: Load Cell Analysis
 category: Design Project
 year: ""
-order: 6
+order: 7
 summary: "Ring-geometry load cell with strain gauges, designed to exceed 3 mV/V output at a 200 lbf rated load."
 tags: [Fusion 360, ANSYS, MATLAB]
 thumbnail: /static/images/thumbs/ANSYSResults.jpg

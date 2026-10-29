@@ -2,7 +2,7 @@
 title: Collapsible Walking Stick
 category: Mechanical Synthesis
 year: ""
-order: 5
+order: 6
 summary: "Collapsible walking stick rated for 300 lb with a hinged folding handle and spring-pin locking stages."
 tags: [Fusion 360, Bill of Materials, Prototyping]
 thumbnail: /static/images/thumbs/CADRenderings.jpg

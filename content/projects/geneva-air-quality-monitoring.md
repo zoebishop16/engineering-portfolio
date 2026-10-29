@@ -2,7 +2,7 @@
 title: Geneva Air Quality Monitoring Model
 category: Senior Design Project
 year: "2026"
-order: 1
+order: 2
 summary: "Production-ready air-quality monitoring station for deployment near landfills in Geneva, NY — redesigned enclosures, sensors, PCB, and a cloud data pipeline."
 tags: [Fusion 360, 3D Printing, Pugh Matrix, Environmental Testing]
 thumbnail: /static/images/thumbs/air-quality-station.jpg

@@ -2,7 +2,7 @@
 title: Boeing 737 Max Case Study
 category: Engineering Ethics
 year: ""
-order: 7
+order: 8
 summary: "An analysis of the ethical failures behind the Boeing 737 MAX crashes — from waived AOA test results to the grounding decision."
 tags: [Engineering Ethics, Technical Writing]
 thumbnail: /static/images/thumbs/737MAX.jpg

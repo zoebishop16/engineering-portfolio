@@ -2,7 +2,7 @@
 title: Small Wind-Turbine Blades
 category: Fluids & Heat Transfer Lab
 year: ""
-order: 2
+order: 3
 summary: "Blended NACA 4412 / 6409 airfoil blades for a small-scale wind turbine, optimized in MATLAB and validated in a wind tunnel."
 tags: [Fusion 360, MATLAB, Wind Tunnel Testing]
 thumbnail: /static/images/thumbs/blades.jpg

@@ -2,7 +2,7 @@
 title: 2025 Mechatronics Cube Craze Competition
 category: Mechatronics Competition
 year: "2025"
-order: 3
+order: 4
 summary: "Arduino-based robot with timed arm deployment that collected cubes autonomously — placed 2nd of 45 teams."
 tags: [Arduino, C, Prototyping]
 thumbnail: /static/images/thumbs/car.jpg

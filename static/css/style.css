@@ -158,6 +158,8 @@ p { margin: 0; }
 .prose li { margin: 6px 0; color: #2b2f37; }
 .prose li::marker { color: var(--accent); }
 .prose strong { font-weight: 600; color: var(--text); }
+.prose a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+.prose a:hover { text-decoration-thickness: 2px; }
 .prose figure { margin: 36px 0; }
 .prose figure img {
   margin: 0 auto; max-height: 520px; width: auto;
