@@ -33,7 +33,9 @@ Restart the server (or rely on `--reload`) after editing content.
 | `GET /api/projects` | Project list |
 | `GET /api/projects/{slug}` | One project, including rendered HTML |
 
-## Static export
+## Deploying (GitHub Pages)
 
-`python freeze.py` renders every page (and the API as `.json` files) into `dist/` for static hosts such as GitHub Pages.
-Links are root-relative, so host it at a domain root (e.g. `username.github.io` or a custom domain).
+Pushing to `main` runs `.github/workflows/deploy.yml`, which renders the site with `freeze.py` and publishes `dist/` to
+https://zoebishop16.github.io/ZoeBishopPortfolio/. One-time setup: repo **Settings → Pages → Source: GitHub Actions**.
+
+To build the static site yourself: `python freeze.py --base-path /ZoeBishopPortfolio` (omit `--base-path` when hosting at a domain root).
